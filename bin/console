@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "solidus_api"
+
+# You can add fixtures and/or initialization code here to make experimenting
+# with your gem easier. You can also use a different console, if you like.
+
+# (If you use this, don't forget to add pry to your Gemfile!)
+# require "pry"
+# Pry.start
+
+# @client = SolidusApi::Client.new(api_key: ENV["API_KEY"], api_endpoint: ENV["API_ENDPOINT"])
+
+@client = SolidusApi::Client.new(api_key: "b24f523901f1a58a86663060950b352f175561f7b662a739", api_endpoint: "http://localhost:3000/api")
+
+puts
+puts "We've created a '@client' variable as a SolidusApi::Client using ENV['API_KEY'] as the API key."
+puts "  and ENV['API_ENDPOINT'] as the solidus store api endpoint"
+puts
+
+require "irb"
+IRB.conf[:USE_AUTOCOMPLETE] = false
+IRB.start(__FILE__)
