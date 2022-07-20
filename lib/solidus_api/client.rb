@@ -19,6 +19,10 @@ module SolidusApi
       TaxonomyResource.new(self)
     end
 
+    def product
+      ProductResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(api_endpoint) do |conn|
         conn.request :authorization, :Bearer, api_key
