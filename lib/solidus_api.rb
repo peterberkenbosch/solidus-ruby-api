@@ -14,4 +14,7 @@ module SolidusApi
 
   autoload :TaxonResource, "solidus_api/resources/taxon"
   autoload :Taxon, "solidus_api/objects/taxon"
+
+  autoload :ProductResource, "solidus_api/resources/product"
+  autoload :Product, "solidus_api/objects/product"
 end
