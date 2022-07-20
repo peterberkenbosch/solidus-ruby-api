@@ -12,3 +12,7 @@ end
 require "standard/rake"
 
 task default: %i[test standard]
+
+task :console do
+  exec "irb -I lib -r solidus_api.rb"
+end
