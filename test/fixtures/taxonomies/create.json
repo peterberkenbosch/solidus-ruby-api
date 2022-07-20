@@ -1,0 +1,13 @@
+{
+	"id": 3,
+	"name": "Test",
+	"root": {
+		"id": 12,
+		"name": "Test",
+		"pretty_name": "Test",
+		"permalink": "test",
+		"parent_id": null,
+		"taxonomy_id": 3,
+		"taxons": []
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"id": 1,
+	"name": "Categories",
+	"root": {
+		"id": 1,
+		"name": "Categories",
+		"pretty_name": "Categories",
+		"permalink": "categories",
+		"parent_id": null,
+		"taxonomy_id": 1,
+		"taxons": [
+			{
+				"id": 3,
+				"name": "Clothing",
+				"pretty_name": "Categories -> Clothing",
+				"permalink": "categories/clothing",
+				"parent_id": 1,
+				"taxonomy_id": 1
+			},
+			{
+				"id": 4,
+				"name": "Caps",
+				"pretty_name": "Categories -> Caps",
+				"permalink": "categories/caps",
+				"parent_id": 1,
+				"taxonomy_id": 1
+			},
+			{
+				"id": 5,
+				"name": "Bags",
+				"pretty_name": "Categories -> Bags",
+				"permalink": "categories/bags",
+				"parent_id": 1,
+				"taxonomy_id": 1
+			},
+			{
+				"id": 6,
+				"name": "Mugs",
+				"pretty_name": "Categories -> Mugs",
+				"permalink": "categories/mugs",
+				"parent_id": 1,
+				"taxonomy_id": 1
+			}
+		]
+	}
+}

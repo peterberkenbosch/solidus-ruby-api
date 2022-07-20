@@ -13,8 +13,8 @@ module SolidusApi
       Taxon.new get_request("taxonomies/#{taxonomy_id}/taxons/#{taxon_id}").body
     end
 
-    def update(taxon_id:, **attributes)
-      Taxon.new patch_request("taxons/#{taxon_id}", body: attributes).body
+    def update(taxonomy_id:, taxon_id:, **attributes)
+      Taxon.new patch_request("taxonomies/#{taxonomy_id}/taxons/#{taxon_id}", body: attributes).body
     end
   end
 end

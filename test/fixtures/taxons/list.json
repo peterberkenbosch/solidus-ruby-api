@@ -1,0 +1,220 @@
+{
+	"count": 11,
+	"total_count": 11,
+	"current_page": 1,
+	"pages": 1,
+	"per_page": 500,
+	"taxons": [
+		{
+			"id": 1,
+			"name": "Categories",
+			"pretty_name": "Categories",
+			"permalink": "categories",
+			"parent_id": null,
+			"taxonomy_id": 1,
+			"taxons": [
+				{
+					"id": 3,
+					"name": "Clothing",
+					"pretty_name": "Categories -> Clothing",
+					"permalink": "categories/clothing",
+					"parent_id": 1,
+					"taxonomy_id": 1,
+					"taxons": [
+						{
+							"id": 7,
+							"name": "Shirts",
+							"pretty_name": "Categories -> Clothing -> Shirts",
+							"permalink": "categories/clothing/shirts",
+							"parent_id": 3,
+							"taxonomy_id": 1,
+							"taxons": []
+						},
+						{
+							"id": 8,
+							"name": "Hoodie",
+							"pretty_name": "Categories -> Clothing -> Hoodie",
+							"permalink": "categories/clothing/hoodie",
+							"parent_id": 3,
+							"taxonomy_id": 1,
+							"taxons": []
+						},
+						{
+							"id": 9,
+							"name": "T-Shirts",
+							"pretty_name": "Categories -> Clothing -> T-Shirts",
+							"permalink": "categories/clothing/t-shirts",
+							"parent_id": 3,
+							"taxonomy_id": 1,
+							"taxons": []
+						}
+					]
+				},
+				{
+					"id": 4,
+					"name": "Caps",
+					"pretty_name": "Categories -> Caps",
+					"permalink": "categories/caps",
+					"parent_id": 1,
+					"taxonomy_id": 1,
+					"taxons": []
+				},
+				{
+					"id": 5,
+					"name": "Bags",
+					"pretty_name": "Categories -> Bags",
+					"permalink": "categories/bags",
+					"parent_id": 1,
+					"taxonomy_id": 1,
+					"taxons": []
+				},
+				{
+					"id": 6,
+					"name": "Mugs",
+					"pretty_name": "Categories -> Mugs",
+					"permalink": "categories/mugs",
+					"parent_id": 1,
+					"taxonomy_id": 1,
+					"taxons": []
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Clothing",
+			"pretty_name": "Categories -> Clothing",
+			"permalink": "categories/clothing",
+			"parent_id": 1,
+			"taxonomy_id": 1,
+			"taxons": [
+				{
+					"id": 7,
+					"name": "Shirts",
+					"pretty_name": "Categories -> Clothing -> Shirts",
+					"permalink": "categories/clothing/shirts",
+					"parent_id": 3,
+					"taxonomy_id": 1,
+					"taxons": []
+				},
+				{
+					"id": 8,
+					"name": "Hoodie",
+					"pretty_name": "Categories -> Clothing -> Hoodie",
+					"permalink": "categories/clothing/hoodie",
+					"parent_id": 3,
+					"taxonomy_id": 1,
+					"taxons": []
+				},
+				{
+					"id": 9,
+					"name": "T-Shirts",
+					"pretty_name": "Categories -> Clothing -> T-Shirts",
+					"permalink": "categories/clothing/t-shirts",
+					"parent_id": 3,
+					"taxonomy_id": 1,
+					"taxons": []
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Shirts",
+			"pretty_name": "Categories -> Clothing -> Shirts",
+			"permalink": "categories/clothing/shirts",
+			"parent_id": 3,
+			"taxonomy_id": 1,
+			"taxons": []
+		},
+		{
+			"id": 8,
+			"name": "Hoodie",
+			"pretty_name": "Categories -> Clothing -> Hoodie",
+			"permalink": "categories/clothing/hoodie",
+			"parent_id": 3,
+			"taxonomy_id": 1,
+			"taxons": []
+		},
+		{
+			"id": 9,
+			"name": "T-Shirts",
+			"pretty_name": "Categories -> Clothing -> T-Shirts",
+			"permalink": "categories/clothing/t-shirts",
+			"parent_id": 3,
+			"taxonomy_id": 1,
+			"taxons": []
+		},
+		{
+			"id": 4,
+			"name": "Caps",
+			"pretty_name": "Categories -> Caps",
+			"permalink": "categories/caps",
+			"parent_id": 1,
+			"taxonomy_id": 1,
+			"taxons": []
+		},
+		{
+			"id": 5,
+			"name": "Bags",
+			"pretty_name": "Categories -> Bags",
+			"permalink": "categories/bags",
+			"parent_id": 1,
+			"taxonomy_id": 1,
+			"taxons": []
+		},
+		{
+			"id": 6,
+			"name": "Mugs",
+			"pretty_name": "Categories -> Mugs",
+			"permalink": "categories/mugs",
+			"parent_id": 1,
+			"taxonomy_id": 1,
+			"taxons": []
+		},
+		{
+			"id": 2,
+			"name": "Brand",
+			"pretty_name": "Brand",
+			"permalink": "brand",
+			"parent_id": null,
+			"taxonomy_id": 2,
+			"taxons": [
+				{
+					"id": 10,
+					"name": "Solidus",
+					"pretty_name": "Brand -> Solidus",
+					"permalink": "brand/solidus",
+					"parent_id": 2,
+					"taxonomy_id": 2,
+					"taxons": []
+				},
+				{
+					"id": 11,
+					"name": "Ruby",
+					"pretty_name": "Brand -> Ruby",
+					"permalink": "brand/ruby",
+					"parent_id": 2,
+					"taxonomy_id": 2,
+					"taxons": []
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Solidus",
+			"pretty_name": "Brand -> Solidus",
+			"permalink": "brand/solidus",
+			"parent_id": 2,
+			"taxonomy_id": 2,
+			"taxons": []
+		},
+		{
+			"id": 11,
+			"name": "Ruby",
+			"pretty_name": "Brand -> Ruby",
+			"permalink": "brand/ruby",
+			"parent_id": 2,
+			"taxonomy_id": 2,
+			"taxons": []
+		}
+	]
+}

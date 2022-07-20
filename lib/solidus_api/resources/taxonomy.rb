@@ -12,5 +12,18 @@ module SolidusApi
     def create(**attributes)
       Taxonomy.new post_request("taxonomies", body: attributes).body
     end
+
+    def update(taxonomy_id:, **attributes)
+      Taxonomy.new patch_request("taxonomies/#{taxonomy_id}", body: attributes).body
+    end
+
+    def delete(taxonomy_id:)
+      Taxonomy.new delete_request("taxonomies/#{taxonomy_id}").body
+    end
+
+    def taxons(taxonomy_id:)
+      response = get_request("taxonomies/#{taxonomy_id}/taxons")
+      Collection.from_response(response, key: "taxons", type: Taxon)
+    end
   end
 end

@@ -1,0 +1,27 @@
+{
+	"count": 2,
+	"total_count": 2,
+	"current_page": 1,
+	"pages": 1,
+	"per_page": 500,
+	"taxons": [
+		{
+			"id": 10,
+			"name": "Solidus",
+			"pretty_name": "Brand -> Solidus",
+			"permalink": "brand/solidus",
+			"parent_id": 2,
+			"taxonomy_id": 2,
+			"taxons": []
+		},
+		{
+			"id": 11,
+			"name": "Ruby",
+			"pretty_name": "Brand -> Ruby",
+			"permalink": "brand/ruby",
+			"parent_id": 2,
+			"taxonomy_id": 2,
+			"taxons": []
+		}
+	]
+}
