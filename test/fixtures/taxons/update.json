@@ -1,0 +1,18 @@
+{
+	"id": 13,
+	"name": "New Name",
+	"pretty_name": "Test -> New Name",
+	"permalink": "test/foobarsz",
+	"parent_id": 12,
+	"taxonomy_id": 3,
+	"taxons": [
+		{
+			"id": 14,
+			"name": "BeebBup",
+			"pretty_name": "Test -> New Name -> BeebBup",
+			"permalink": "test/foobarsz/foobarsz",
+			"parent_id": 13,
+			"taxonomy_id": 3
+		}
+	]
+}
